@@ -4,10 +4,12 @@ import { MainApp } from './components';
 
 export default function App() {
   return (
-    <QueryProvider>
-      <ThemeProvider>
-        <MainApp />
-      </ThemeProvider>
-    </QueryProvider>
+    <React.StrictMode>
+      <QueryProvider>
+        <ThemeProvider>
+          <MainApp />
+        </ThemeProvider>
+      </QueryProvider>
+    </React.StrictMode>
   );
 }

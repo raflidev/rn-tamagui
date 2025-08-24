@@ -10,17 +10,19 @@
   },
   "dependencies": {
     "@expo/metro-runtime": "~5.0.4",
-    "@tamagui/babel-plugin": "^1.132.20",
-    "@tamagui/config": "^1.132.20",
-    "@tamagui/form": "^1.132.20",
+    "@tamagui/babel-plugin": "1.132.20",
+    "@tamagui/config": "1.132.20",
+    "@tamagui/form": "1.132.20",
+    "@tamagui/lucide-icons": "^1.132.20",
+    "@tamagui/portal": "1.132.20",
     "@tanstack/react-query": "^5.85.5",
     "expo": "~53.0.20",
     "expo-status-bar": "~2.2.3",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-native": "0.79.5",
-    "react-native-web": "^0.20.0",
-    "tamagui": "^1.132.20"
+    "react-native-svg": "^15.12.1",
+    "tamagui": "1.132.20"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
